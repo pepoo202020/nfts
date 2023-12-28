@@ -1,0 +1,5 @@
+.burger:hover .bur01,
+.burger:hover .bur02,
+.burger:hover .bur03 {
+  background-color: #a259ff;
+}
