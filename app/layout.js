@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
         <header className={`${workSans.className} sticky bg top-0 z-20`}>
           <Header />
         </header>
-        <main className="h-full flex-grow">{children}</main>
+        <main className={`${workSans.className} h-full flex-grow`}>
+          {children}
+        </main>
         <footer className={`${workSans.className} bgSecondary py-10`}>
           <Footer />
         </footer>
